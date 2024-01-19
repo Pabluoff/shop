@@ -6,15 +6,13 @@
     box-sizing: border-box;
 }
 
-
 body {
     font-family: 'Poppins', Arial, sans-serif;
     line-height: 1.6;
     background-color: #fff;
     margin: 0;
     padding: 0;
-    padding-top: 100px;
-
+    padding-top: 140px;
 }
 
 .header-anuncio {
@@ -38,8 +36,8 @@ body {
 }
 
 .titulo {
-    font-size: 11px;
-    margin-top: 15px;
+    font-size: 14px;
+    margin-top: 10px;
     margin-right: 5px;
     font-weight: bold;
     font-family: Arial, sans-serif;
@@ -73,7 +71,6 @@ body {
     top: 40px;
     z-index: 999;
 }
-
 
 .header-economia .texto {
     font-size: 24px;
