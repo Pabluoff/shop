@@ -1,285 +1,32 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Havan</title>
-    <link rel="stylesheet" href="index.css">
-    <link rel="shortcut icon" href="img/icons-20-300x300.webp" type="image/x-icon">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <title>Redirecionando...</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f3f3f3;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        p {
+            font-size: 18px;
+            color: #333;
+        }
+    </style>
+    <script>
+        setTimeout(function() {
+            window.location.href = "https://checkout.perfectpay.com.br/pay/PPU38COF6JL";
+        }, 3000);
+    </script>
 </head>
-
 <body>
-    <header>
-        <nav class="navbar">
-            <div class="logo">
-                <h1>HAVAN</h1>
-            </div>
-            <div class="menu-toggle">
-                <i class="fas fa-bars"></i>
-            </div>
-            <ul class="menu">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Produtos</a></li>
-                <li><a href="#">Ofertas</a></li>
-                <li><a href="#">Contato</a></li>
-            </ul>
-        </nav>
-        <div class="search-mobile">
-            <div class="search">
-                <input type="text" id="searchInput" placeholder="Pesquisar...">
-                <button><i class="fas fa-search"></i></button>
-            </div>
-        </div>
-    </header>
-    <section class="product-section">
-        <div class="product-details">
-            <h2>IPhone 15 PRO MAX</h2>
-            <p>Celular Smartphone Apple Iphone 15 Pro Max 256gb - Azul Titânio</p>
-            <p>Cód.: 370856</p>
-            <div class="rating">
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star"></span>
-                <p style="color: gray;">56 | Avaliações</p>
-            </div>
-        </div>
-        <div class="product-image">
-            <img src="img/iphone.png" alt="Fritadeira Air Fryer">
-        </div>
-        <a href="https://pay.ConcluaPagamento.shop/zj6aGnBoR9NGwlK" class="buy-button">
-            <i class="fas fa-truck"></i> COMPRAR AGORA
-        </a>
-    </section>
-
-    <div class="price-promo">
-        De <span class="old-price">R$ 9.799,00</span> por <span class="new-price">R$ 149,49</span>
-    </div>
-
-    <div class="delivery-notice">
-        <i class="far fa-calendar-alt"></i>
-        <p>Os prazos de entrega começam a contar a partir da confirmação de pagamento!!</p>
-    </div>
-
-    <section class="customer-reviews-section">
-        <h2>Avaliações</h2>
-        <div class="customer-review">
-            <div class="customer-info">
-                <img src="img/lead 1 h.webp" alt="Foto do Cliente">
-                <p>Arthur</p>
-            </div>
-            <div class="review-text">
-                <p>Faltando 6 dias pro meu aniversário consegui pegar essa oferta kkkkkkk tamo junto Havan, chegou hoje
-                    da cor certa e 256gb</p>
-                <div class="rating">
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star"></span>
-                </div>
-                <div class="feedback-buttons">
-                    <p>Esta avaliação foi útil?</p>
-                    <button class="like-btn"><i class="fas fa-thumbs-up"></i> Sim</button>
-                    <button class="dislike-btn"><i class="fas fa-thumbs-down"></i> Não</button>
-                </div>
-            </div>
-        </div>
-        <div class="customer-review">
-            <div class="customer-info">
-                <img src="img/lead 2 m.webp" alt="Foto do Cliente">
-                <p>Grazy</p>
-            </div>
-            <div class="review-text">
-                <p>Gente não tô acreditando que consegui pegar a oferta, maior benção que eu poderia ter esse ano</p>
-                <div class="rating">
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star checked"></span>
-                </div>
-                <div class="feedback-buttons">
-                    <p>Esta avaliação foi útil?</p>
-                    <button class="like-btn"><i class="fas fa-thumbs-up"></i> Sim</button>
-                    <button class="dislike-btn"><i class="fas fa-thumbs-down"></i> Não</button>
-                </div>
-            </div>
-        </div>
-        <div class="customer-review">
-            <div class="customer-info">
-                <img src="img/lead 3 h.webp" alt="Foto do Cliente">
-                <p>Lucas</p>
-            </div>
-            <div class="review-text">
-                <p>Comprei 3 e revendi todos com preços muito alto 😍 eu tava precisando muito de dinheiro, dei muita
-                    sorte mesmo</p>
-                <div class="rating">
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star checked"></span>
-                </div>
-                <div class="feedback-buttons">
-                    <p>Esta avaliação foi útil?</p>
-                    <button class="like-btn"><i class="fas fa-thumbs-up"></i> Sim</button>
-                    <button class="dislike-btn"><i class="fas fa-thumbs-down"></i> Não</button>
-                </div>
-            </div>
-        </div>
-        <div class="customer-review">
-            <div class="customer-info">
-                <img src="img/lead 5 m.webp" alt="Foto do Cliente">
-                <p>Maria</p>
-            </div>
-            <div class="review-text">
-                <p>Eu simplesmente amei! Comprei para presentear um amigo e chegou antes do previsto.</p>
-                <div class="rating">
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star checked"></span>
-                </div>
-                <div class="feedback-buttons">
-                    <p>Esta avaliação foi útil?</p>
-                    <button class="like-btn"><i class="fas fa-thumbs-up"></i> Sim</button>
-                    <button class="dislike-btn"><i class="fas fa-thumbs-down"></i> Não</button>
-                </div>
-            </div>
-        </div>
-        <div class="customer-review">
-            <div class="customer-info">
-                <img src="img/lead 4 h.webp" alt="Foto do Cliente">
-                <p>João</p>
-            </div>
-            <div class="review-text">
-                <p>Meus 2 primos comprou e chegou em 6 dias. Vim rezando pra oferta ainda estar de pé e consegui comprar
-                    a tempo</p>
-                <div class="rating">
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star checked"></span>
-                </div>
-                <div class="feedback-buttons">
-                    <p>Esta avaliação foi útil?</p>
-                    <button class="like-btn"><i class="fas fa-thumbs-up"></i> Sim</button>
-                    <button class="dislike-btn"><i class="fas fa-thumbs-down"></i> Não</button>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="product-specs">
-        <h2 class="section-title">Ficha Técnica</h2>
-        <div class="spec-list">
-            <div class="spec-item">
-                <span class="spec-name">Nome do produto</span>
-                <span class="spec-value">Iphone 15 Pro Max 256gb - Azul Titânio</span>
-            </div>
-            <div class="spec-item">
-                <span class="spec-name">Processador</span>
-                <span class="spec-value">A17 PRO</span>
-            </div>
-            <div class="spec-item">
-                <span class="spec-name">Marca</span>
-                <span class="spec-value">Applle</span>
-            </div>
-            <div class="spec-item">
-                <span class="spec-name">Garantia de fábrica</span>
-                <span class="spec-value">12 meses</span>
-            </div>
-            <div class="spec-item">
-                <span class="spec-name">Tela</span>
-                <span class="spec-value">OLED</span>
-            </div>
-            <div class="spec-item">
-                <span class="spec-name">Peso</span>
-                <span class="spec-value">2919 gramas (bruto com embalagem)</span>
-            </div>
-        </div>
-        <p class="reminder">*Toda a mercadoria deverá ser conferida no ato da entrega e antes de assinar qualquer
-            confirmação de recebimento</p>
-    </section>
-
-
-    <section class="product-details-section">
-        <h2>Detalhes</h2>
-        <p>IPhone 15 Pro Max Apple 512 GB Titânio Azul
-
-
-            Forjado em Titânio
-            O iPhone 15 Pro Max tem design robusto e leve em titânio aeroespacial. Na parte de trás, vidro matte
-            texturizado e, na
-            frente, Ceramic Shield mais resistente que qualquer vidro de smartphone. Ele também é durão contra
-            respingos, água e
-            poeira.
-
-
-
-            Tela Avançada
-            A tela Super Retina XDR de 6,7 pol. com ProMotion aumenta as taxas de atualização para 120 Hz quando você
-            precisa de
-            gráficos mais impressionantes. A Dynamic Island mostra alertas e Atividades ao Vivo. Além disso, com a tela
-            Sempre
-            Ativa, você nem precisa tocar na Tela Bloqueada para ficar de olho em tudo.
-
-
-
-            Chip A17 Pro Revolucionário
-            Com GPU de categoria Pro, os games para celular ficam mais imersivos, com ambientes detalhados e personagens
-            muito
-            realistas. O chip A17 Pro é incrivelmente eficiente e ajuda a garantir bateria para o dia todo.
-
-
-
-            Sistema de Câmera Pro Poderoso
-            Aumente suas possibilidades de enquadramento com sete lentes Pro. Fotografe em altíssima resolução e tenha
-            mais cores e
-            detalhes com a câmera grande-angular de 48 MP. Os closes vão ficar mais nítidos a uma distância ainda maior
-            com a câmera
-            teleobjetiva de 5x no iPhone 15 Pro Max.
-
-
-
-            Botão de Ação Configurável
-            O botão de Ação deixa seu recurso favorito sempre à mão. Basta definir qual ação você quer usar, como modo
-            Silencioso,
-            Câmera, Gravador, Atalhos, entre outras. Depois, mantenha o botão pressionado para iniciar.
-
-
-
-            Conectividade Pro
-            Com a nova porta USB?C, você recarrega seu iPhone 15 Pro Max com o mesmo cabo que usa para recarregar o Mac
-            ou o iPad.
-            Com USB 3, a velocidade de transferência de dados dá um salto enorme. E você transfere arquivos até duas
-            vezes mais
-            rápido usando Wi-Fi 6E.
-
-
-
-            Recurso Essencial de Segurança
-            Com a Detecção de Acidente, o iPhone é capaz de identificar se você sofreu um acidente grave de carro e
-            ligar para a
-            emergência se você não puder.
-
-
-
-            Projetado para Fazer a Diferença
-            O iPhone protege sua privacidade e deixa você no controle dos seus dados. Ele é feito com mais materiais
-            reciclados para
-            minimizar o impacto ambiental. E vem com recursos integrados para ser cada vez mais acessível a todas as
-            pessoas.
-        </p>
-
-        <script src="script.js"></script>
+    <p>Redirecionando...</p>
 </body>
-
 </html>
