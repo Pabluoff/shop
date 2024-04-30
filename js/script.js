@@ -137,3 +137,10 @@ setInterval(updateDate, 86400000); // 24 horas = 86400000 milissegundos
 // Chama a função de atualização pela primeira vez para exibir a data inicial
 updateDate();
 
+
+document.addEventListener("DOMContentLoaded", function() {
+    setTimeout(function() {
+        var button = document.querySelector(".button");
+        button.classList.remove("hidden"); // Remove a classe "hidden" para tornar o botão visível
+    }, 420000); // 7 minutos = 420000 milissegundos
+});

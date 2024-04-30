@@ -160,6 +160,10 @@ body {
     color: #fff;
 }
 
+.hidden {
+    display: none; 
+}
+
 
 .footer {
     background-color: #D20202;
