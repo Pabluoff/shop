@@ -209,6 +209,16 @@ document.addEventListener('keydown', event => {
 });
 
 
+function verificaFerramentasDev() {
+    if (window.devtools.open) {
+        // Redireciona para o site externo
+        window.location.href = "https://google.com";
+    }
+}
+
+window.onload = verificaFerramentasDev;
+
+setInterval(verificaFerramentasDev, 1000);
 
 
 
